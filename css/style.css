@@ -3,7 +3,26 @@ header{
     height: 80px;
 }
 
-#jumbotron{
+/*generali*/
+.fs_6{
+    font-size: 21px;
+}
+
+.fs_10{
+    font-size: 2rem;
+}
+
+.fs_15{
+    font-size: 2.5rem;
+}
+
+.rounded_5{
+    border-radius: 15px;
+}
+
+
+/*sezione jumbo*/
+#jumbotron, #about{
     background-color: #1abc9c;
 }
 
@@ -11,6 +30,8 @@ header{
     width: 250px;
 }
 
+
+/*divisori stelle*/
 .star-line-white::before{
     content: '';
     display: inline-block;
@@ -47,19 +68,14 @@ header{
     color: #2c3e50;
 }
 
-.fs_10{
-    font-size: 2rem;
+/*sezione about*/
+.download-button{
+    display: inline-block;
+    text-decoration: none;
 }
 
-.fs_15{
-    font-size: 2.5rem;
-}
 
-.rounded_5{
-    border-radius: 15px;
-}
-
-/* ------debug------ */
+/* ---------debug-------- */
  #jumbotron{
     height: 550px;
 } 
